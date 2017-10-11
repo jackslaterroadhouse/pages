@@ -1,4 +1,110 @@
-section { display: block; text-align: center;}
-*{ border: 2px solid black;}
-.parking{ width: 33%; float: left;}
-.street{ }
+/*header{ text-align: center;}
+section { display: block; text-align: center; width: 1920px;}
+*{ padding: 5px; margin-top: 20px;}
+
+.street{ width: 30%; float: left;}
+
+.lot{ width: 30%; float: left;}
+
+.garage{ width: 30%; float: left}
+*/
+
+.card {
+  margin-bottom: 40px;
+}
+
+.card__image {
+  height: 200px;
+  width: auto;
+}
+
+.card__text {
+
+}
+
+nav a {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+li {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header {
+  padding: 70px 0 70px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.header__image {
+  background:
+  linear-gradient(
+    rgba(88, 88, 88, 0.45),
+    rgba(88, 88, 88, 0.45)
+    ),
+    url("https://images.unsplash.com/photo-1445023835378-9fa9a2089f0c?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+#slu {
+  background:
+  linear-gradient(
+    rgba(88, 88, 88, 0.45),
+    rgba(88, 88, 88, 0.45)
+    ),
+    url("./South_Lake_Union_Streetcar_with_First_Tech_Credit_Union_advertising.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+#queen-anne {
+  background:
+  linear-gradient(
+    rgba(88, 88, 88, 0.45),
+    rgba(88, 88, 88, 0.45)
+    ),
+    url("./Queen_Anne_hill_from_Space_Needle_-_Seattle.JPG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+#belltown {
+  background:
+  linear-gradient(
+    rgba(88, 88, 88, 0.45),
+    rgba(88, 88, 88, 0.45)
+    ),
+    url("./Seattle_-_City_Church_03.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+footer {
+  text-align: center;
+}
+
+footer li+li::before {
+  content: "|";
+}
